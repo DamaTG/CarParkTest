@@ -1,3 +1,4 @@
+//create table booking
 CREATE TABLE booking (bookingid INTEGER PRIMARY KEY,
        bookee_id INTEGER REFERENCES bookee (bookeeid), 
        dateofbooking DATE NOT NULL,
